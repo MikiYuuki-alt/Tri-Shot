@@ -3,7 +3,7 @@ using UnityEngine;
 public class BossShot : MonoBehaviour
 {
     private Vector3 m_velocity;
-    
+    //É{ÉXíe1,2
     
     public void Init(float angleDeg, float speed)
     {
