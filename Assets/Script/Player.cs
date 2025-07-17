@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public int m_shotCount; // 弾の発射数
     public float m_shotInterval; // 弾の発射間隔（秒）
     public GameObject m_clonePrefab;  // 分身プレハブ
-    private GameObject m_leftClone;
+    private GameObject m_leftClone; //クローン
     private GameObject m_rightClone;
     private bool isCloning = false;
     public AudioClip m_shotSE;              // 発射SE
