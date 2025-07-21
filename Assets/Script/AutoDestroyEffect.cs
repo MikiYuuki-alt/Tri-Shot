@@ -17,6 +17,7 @@ public class AutoDestroyEffect : MonoBehaviour
                 animationLength = clips[0].length;
                 // 一定時間後にDestroyを呼ぶ
                 Destroy(gameObject, animationLength);
+                Debug.Log("エフェクト破壊");
             }
             else
             {
