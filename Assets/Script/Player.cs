@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
         // フレームレート固定
         Application.targetFrameRate = 60;
 
-        // --- プレイヤー移動（左スティック or キーボード） ---
+        // プレイヤー移動（左スティック or キーボード）
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         Vector3 velocity = new Vector3(h, v) * m_speed;
