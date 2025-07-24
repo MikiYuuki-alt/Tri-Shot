@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         ranking.Sort((a, b) => a.hits.CompareTo(b.hits));
 
         // ãˆÊ10Œ‚É§ŒÀ
-        if (ranking.Count > 10)
+        if (ranking.Count >= 10)
         {
             ranking = ranking.GetRange(0, 10);
         }
